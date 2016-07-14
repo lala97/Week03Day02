@@ -1,0 +1,100 @@
+
+                      ___________________________________Duzgun Css kodu yazmaq ucun vacib olan 10 qayda__________________________
+
+Css kodu yazarken butun bildiklerimizin hamisindan istifade etmek lazim deyil bu yaratdiginiz isin seviyyesini qaldirmaz eksine.Bunun icin bildiklerimizi daha mentiqli
+ istfade etmeyi oyrenek.Bunun ucun asagidaki qaydalar lazimdir.
+
+1.RESET-lemek,yeni sifirlamaq.
+2.Sehifeye uygun olcude Image secmek. 
+3.Tekrarlanan ifadelerden istifade etmemeli. 
+4.Serhlerden(comment) istidade etmek
+//eger qrup olaraq isleyirikse yazdigimizin daha anlasiqli olmasi ucun serhlerden ve daha aydin class adlarindan istifade edek.
+
+5.Qisaltmalardan istifade edin :
+Mes:
+    font-weight: bold;                                  
+    font-family: verdana, sans-serif;  evezine  -->  font: bold 11px/15px verdana, sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+
+6.Her element ucun bir terif istifade etmek : 
+//Css kodlari cox oldugu zaman bize lazim olan elementi tapmaq ucun elverislidir.
+
+ Mes : 
+      h1
+{
+    float:left;
+    width:265px;                   evezine -->   h1{...}
+    background-color:#fff;
+    border:3px solid #525252;
+}
+
+7.Kodlari elifba sirasi ile yazmaq  
+8.class-a verilen olan tekrar deyerlerden istifade etmemeli.
+//Yeni bir nece class-a aid olan deyerler eynidise onlari 1 class-da yazmaq//
+9.Her yazimiz ucun class ve id-lerden istifade etmemeli
+ Mes : 
+      <h1> tag-i sehifenin her istifade olunan hissesinde eyni funksiyani yerine yetirise deyerleri class ve id olmadan birbas ozune vermek kifayetdir.
+10.En onemlisi css kodlarindan duzgun istifade ve duzgun yerde.
+Mes:
+    Margin padding kimi xususiyyetlilere duzgun olcu vermek elecede duzgun olcu novunden
+      istifade etmek (em, px , %) 
+
+
+
+
+                                                      ___________Icons Fonts__________
+
+1.Elusive , iconmonstr , iconfinder ve s.
+
+
+
+                                                   _____________ Font-Family___________
+
+1.Metropol
+2.Milonga
+3.Montserrat
+5.Rockwell
+6.Sweetly Broken
+7.Fabada
+8.Gotham
+9.Imperiya
+10.Didot
+2.daxilindeki fayli hazirladigimiz saytin papkasindaki fonts papkasina elave etmek
+3.daha sonra css faylini aciriq  orada
+ @font-face { 
+font-family: Argo;
+src: url(yerlesdiyi papkani yazmaq)
+}
+4.daha sonra harda mene o shrift lazimdirsa ora  bele yaziram:
+font-family: 'Argo',sans-serif,arial;
+5.veya
+ html,body{ font-family: 'Argo',sans-serif,arial; }
+
+
+------Istifade Qaydasi----
+1.arxiv fayl yuklenilir 
+2.daxilindeki font fayllari yaratdigimiz font papkasina elave olunur.
+3.Css-de @font-face {
+         font-family: Rockwell;
+         src:url(yerlesdiyi yer) }
+4.bu font her hansi elemente bu qayda ile verilir:
+ Mes: Css-de  
+       h1{ font-family : 'Rockwell',Arial; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.Nova
